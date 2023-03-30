@@ -1,0 +1,30 @@
+Server,IP
+Live,Live Be careful
+Webportal,18.141.13.158
+DWH,13.214.161.142
+Core Appserver,18.140.68.110
+Primary Appserver,13.213.68.202
+Higher Appserver,54.169.54.133
+Core webclient,18.141.218.205
+Primary webclient,13.214.161.69
+Higher webclient,13.229.153.109
+,
+UAT,
+Webportal,54.169.7.100
+DWH,18.141.221.3
+Core Appserver,13.212.127.167
+Primary Appserver,13.212.177.105
+Higher Appserver,13.229.145.212
+Core webclient,13.250.114.190
+Primary webclient,13.229.57.209
+Higher webclient,46.137.197.113
+,
+Test,
+Webportal,52.221.231.146
+DWH,13.212.213.1
+Core Appserver,54.169.169.87
+Primary Appserver,54.251.209.242
+Higher Appserver,3.0.146.190
+Core webclient,18.136.212.248
+Primary webclient,13.215.140.22
+Higher webclient,13.213.63.157
