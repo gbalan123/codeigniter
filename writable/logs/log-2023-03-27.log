@@ -1,0 +1,7 @@
+CRITICAL - 2023-03-27 11:11:10 --> CodeIgniter\Router\RouteCollection::group(): Argument #1 ($name) must be of type string, array given, called in C:\xampp\htdocs\webportal-ci4\app\Config\Routes.php on line 61
+#0 C:\xampp\htdocs\webportal-ci4\app\Config\Routes.php(61): CodeIgniter\Router\RouteCollection->group(Array, Object(Closure))
+#1 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(713): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

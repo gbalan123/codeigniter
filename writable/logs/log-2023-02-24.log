@@ -1,0 +1,184 @@
+ERROR - 2023-02-24 05:13:18 --> No database selected
+CRITICAL - 2023-02-24 05:13:18 --> No database selected
+#0 C:\xampp\htdocs\webportal-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `data`\nF...', 0)
+#1 C:\xampp\htdocs\webportal-ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data`\nF...')
+#2 C:\xampp\htdocs\webportal-ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data`\nF...')
+#3 C:\xampp\htdocs\webportal-ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `data`\nF...', Array, false)
+#4 C:\xampp\htdocs\webportal-ci4\system\Session\Handlers\DatabaseHandler.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->read('fbdnmnlct4ob7m3...')
+#6 C:\xampp\htdocs\webportal-ci4\system\Session\Session.php(894): session_start()
+#7 C:\xampp\htdocs\webportal-ci4\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#8 C:\xampp\htdocs\webportal-ci4\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#9 C:\xampp\htdocs\webportal-ci4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#10 C:\xampp\htdocs\webportal-ci4\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 C:\xampp\htdocs\webportal-ci4\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#12 C:\xampp\htdocs\webportal-ci4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#13 C:\xampp\htdocs\webportal-ci4\app\Controllers\Site.php(33): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#14 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(809): App\Controllers\Site->__construct()
+#15 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#16 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#18 {main}
+INFO - 2023-02-24 05:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+CRITICAL - 2023-02-24 05:14:19 --> Undefined array key "billionValue"
+#0 C:\xampp\htdocs\webportal-ci4\app\Libraries\Acl_auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\webportal-ci4\app\Controllers\Site.php(43): App\Libraries\Acl_auth->__construct()
+#2 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(809): App\Controllers\Site->__construct()
+#3 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2023-02-24 05:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+INFO - 2023-02-24 05:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:15:31 --> Unzip Class Initialized
+INFO - 2023-02-24 05:15:31 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:15:32 --> Unzip Class Initialized
+INFO - 2023-02-24 05:15:32 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:15:37 --> Unzip Class Initialized
+INFO - 2023-02-24 05:15:37 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:15:38 --> Unzip Class Initialized
+INFO - 2023-02-24 05:15:38 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:18:42 --> Unzip Class Initialized
+INFO - 2023-02-24 05:18:42 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:18:57 --> Unzip Class Initialized
+INFO - 2023-02-24 05:18:57 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:19:06 --> Unzip Class Initialized
+INFO - 2023-02-24 05:19:06 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:19:12 --> Unzip Class Initialized
+INFO - 2023-02-24 05:19:12 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:38:02 --> Unzip Class Initialized
+INFO - 2023-02-24 05:38:02 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:40:26 --> Unzip Class Initialized
+INFO - 2023-02-24 05:40:26 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:47:41 --> Unzip Class Initialized
+INFO - 2023-02-24 05:47:41 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:49:08 --> Unzip Class Initialized
+INFO - 2023-02-24 05:49:08 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:49:40 --> Unzip Class Initialized
+INFO - 2023-02-24 05:49:40 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:50:00 --> Unzip Class Initialized
+INFO - 2023-02-24 05:50:00 --> Zip Compression Class Initialized
+CRITICAL - 2023-02-24 05:50:00 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getSegments()
+#0 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\Admin->ForceXML_Fetch('ff812240-528e-4...')
+#1 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2023-02-24 05:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:50:15 --> Unzip Class Initialized
+INFO - 2023-02-24 05:50:15 --> Zip Compression Class Initialized
+CRITICAL - 2023-02-24 05:50:15 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getOption()
+#0 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\Admin->ForceXML_Fetch('ff812240-528e-4...')
+#1 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2023-02-24 05:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:50:47 --> Unzip Class Initialized
+INFO - 2023-02-24 05:50:47 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:51:52 --> Unzip Class Initialized
+INFO - 2023-02-24 05:51:52 --> Zip Compression Class Initialized
+CRITICAL - 2023-02-24 05:51:52 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getopt
+#0 C:\xampp\htdocs\webportal-ci4\app\Controllers\Admin.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 154)
+#1 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\Admin->ForceXML_Fetch('ff812240-528e-4...')
+#2 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2023-02-24 05:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:52:15 --> Unzip Class Initialized
+INFO - 2023-02-24 05:52:15 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:52:41 --> Unzip Class Initialized
+INFO - 2023-02-24 05:52:41 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:53:01 --> Unzip Class Initialized
+INFO - 2023-02-24 05:53:01 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:53:10 --> Unzip Class Initialized
+INFO - 2023-02-24 05:53:10 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:53:21 --> Unzip Class Initialized
+INFO - 2023-02-24 05:53:21 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:53:55 --> Unzip Class Initialized
+INFO - 2023-02-24 05:53:55 --> Zip Compression Class Initialized
+CRITICAL - 2023-02-24 05:55:01 --> syntax error, unexpected token "echo"
+#0 C:\xampp\htdocs\webportal-ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('en/admin/ForceX...')
+#1 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('en/admin/ForceX...')
+#2 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2023-02-24 05:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:55:06 --> Unzip Class Initialized
+INFO - 2023-02-24 05:55:06 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:58:29 --> Unzip Class Initialized
+INFO - 2023-02-24 05:58:29 --> Zip Compression Class Initialized
+INFO - 2023-02-24 05:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 05:58:49 --> Unzip Class Initialized
+INFO - 2023-02-24 05:58:49 --> Zip Compression Class Initialized
+INFO - 2023-02-24 06:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 06:02:49 --> Unzip Class Initialized
+INFO - 2023-02-24 06:02:49 --> Zip Compression Class Initialized
+INFO - 2023-02-24 06:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 06:03:14 --> Unzip Class Initialized
+INFO - 2023-02-24 06:03:14 --> Zip Compression Class Initialized
+INFO - 2023-02-24 06:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 06:03:52 --> Unzip Class Initialized
+INFO - 2023-02-24 06:03:52 --> Zip Compression Class Initialized
+INFO - 2023-02-24 06:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 06:03:58 --> Unzip Class Initialized
+INFO - 2023-02-24 06:03:58 --> Zip Compression Class Initialized
+INFO - 2023-02-24 06:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 06:06:00 --> Unzip Class Initialized
+INFO - 2023-02-24 06:06:00 --> Zip Compression Class Initialized
+INFO - 2023-02-24 06:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 06:06:19 --> Unzip Class Initialized
+INFO - 2023-02-24 06:06:19 --> Zip Compression Class Initialized
+INFO - 2023-02-24 06:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\DatabaseHandler' driver.
+DEBUG - 2023-02-24 06:06:47 --> Unzip Class Initialized
+INFO - 2023-02-24 06:06:47 --> Zip Compression Class Initialized
+ERROR - 2023-02-24 09:38:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-02-24 09:38:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\webportal-ci4\system\Session\Handlers\DatabaseHandler.php(94): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#2 C:\xampp\htdocs\webportal-ci4\system\Session\Session.php(894): session_start()
+#3 C:\xampp\htdocs\webportal-ci4\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 C:\xampp\htdocs\webportal-ci4\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 C:\xampp\htdocs\webportal-ci4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#6 C:\xampp\htdocs\webportal-ci4\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#7 C:\xampp\htdocs\webportal-ci4\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#8 C:\xampp\htdocs\webportal-ci4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 C:\xampp\htdocs\webportal-ci4\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#10 C:\xampp\htdocs\webportal-ci4\app\Models\Usermodel.php(18): session()
+#11 C:\xampp\htdocs\webportal-ci4\app\Libraries\Acl_auth.php(54): App\Models\Usermodel->__construct()
+#12 C:\xampp\htdocs\webportal-ci4\app\Controllers\Admin.php(58): App\Libraries\Acl_auth->__construct()
+#13 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(809): App\Controllers\Admin->__construct()
+#14 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#15 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-02-24 10:04:58 --> Undefined variable $log_file_name
+#0 C:\xampp\htdocs\webportal-ci4\app\Controllers\Admin.php(10401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10401)
+#1 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\Admin->manual_result_fetch('fd32d8ae-180e-4...')
+#2 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
