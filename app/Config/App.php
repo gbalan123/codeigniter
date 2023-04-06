@@ -1,6 +1,4 @@
-<?php
-
-namespace Config;
+<?php namespace Config;
 $this->config = new \Config\MY_Lang(); 
 
 use CodeIgniter\Config\BaseConfig;
