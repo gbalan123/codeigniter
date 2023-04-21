@@ -1,0 +1,40 @@
+CRITICAL - 2023-04-20 06:19:07 --> error_log(../../../EFS/webportalci4/logs/custom_logs/tds_logout.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'error_log(../.....', 'E:\\xampp\\htdocs...', 1070)
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\Site.php(1070): error_log('[2023-04-20 06:...', 3, '../../../EFS/we...')
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\Site->logout()
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+#4 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\new\sonar\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-20 06:20:38 --> error_log(../../../EFS/webportalci4/logs/custom_logs/tds_logout.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'error_log(../.....', 'E:\\xampp\\htdocs...', 1070)
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\Site.php(1070): error_log('[2023-04-20 06:...', 3, '../../../EFS/we...')
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\Site->logout()
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+#4 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\new\sonar\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-20 06:20:46 --> error_log(../../../EFS/webportalci4/logs/custom_logs/tds_logout.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'error_log(../.....', 'E:\\xampp\\htdocs...', 1070)
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\Site.php(1070): error_log('[2023-04-20 06:...', 3, '../../../EFS/we...')
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\Site->logout()
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+#4 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\new\sonar\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-20 06:20:58 --> error_log(../../../EFS/webportalci4/logs/custom_logs/tds_logout.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'error_log(../.....', 'E:\\xampp\\htdocs...', 1070)
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\Site.php(1070): error_log('[2023-04-20 06:...', 3, '../../../EFS/we...')
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\Site->logout()
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+#4 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\new\sonar\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-20 06:21:25 --> error_log(../../../../EFS/webportalci4/logs/custom_logs/tds_logout.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'error_log(../.....', 'E:\\xampp\\htdocs...', 1070)
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\Site.php(1070): error_log('[2023-04-20 06:...', 3, '../../../../EFS...')
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\Site->logout()
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+#4 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\new\sonar\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

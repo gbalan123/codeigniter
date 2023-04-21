@@ -1,0 +1,64 @@
+CRITICAL - 2023-04-11 07:15:35 --> Undefined array key "num_history_results"
+#0 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\School.php(3521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\xampp\\htdocs...', 3521)
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\School.php(466): App\Controllers\School->u13_learners()
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\School->dashboard('6')
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#4 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\new\sonar\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-04-11 09:39:07 --> Learner Removed from event - 10000047351101 - event id 1504 -Institute admin 2310
+ERROR - 2023-04-11 09:39:07 --> Learner Removed from event - 10000045871101 - event id 1504 -Institute admin 2310
+ERROR - 2023-04-11 09:39:07 --> Learner Removed from event - 10000045551101 - event id 1504 -Institute admin 2310
+ERROR - 2023-04-11 09:39:07 --> Learner Removed from event - 10000046841201 - event id 1504 -Institute admin 2310
+ERROR - 2023-04-11 09:39:08 --> Learner Removed from event - 10000046791101 - event id 1504 -Institute admin 2310
+ERROR - 2023-04-11 09:39:08 --> Learner Removed from event - 10000025911101 - event id 1504 -Institute admin 2310
+ERROR - 2023-04-11 09:39:08 --> Learner Removed from event - 10000047461101 - event id 1504 -Institute admin 2310
+ERROR - 2023-04-11 09:39:08 --> Learner Removed from event - 10000047422301 - event id 1504 -Institute admin 2310
+ERROR - 2023-04-11 09:39:09 --> Learner Removed from event - 10000047402301 - event id 1504 -Institute admin 2310
+ERROR - 2023-04-11 09:39:09 --> Learner Removed from event - 10000047561101 - event id 1504 -Institute admin 2310
+CRITICAL - 2023-04-11 13:46:57 --> file_put_contents(../../../EFS/webportalci4/uploads/charts/results/10000024603301.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'E:\\xampp\\htdocs...', 2992)
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\School.php(2992): file_put_contents('../../../EFS/we...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\School->save_chart_13()
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#4 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\new\sonar\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-11 13:46:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\xampp\htdocs\new\sonar\webportal-ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 E:\xampp\htdocs\new\sonar\webportal-ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-11 13:56:57 --> file_put_contents(../../../EFS/webportalci4/uploads/charts/results/10000024603301.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'E:\\xampp\\htdocs...', 2992)
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\School.php(2992): file_put_contents('../../../EFS/we...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\School->save_chart_13()
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\School))
+#4 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\new\sonar\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-11 13:56:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in E:\xampp\htdocs\new\sonar\webportal-ci4\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 E:\xampp\htdocs\new\sonar\webportal-ci4\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-11 14:11:56 --> error_log(../../../EFS/webportalci4/logs/custom_logs/tds_logout.txt): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'error_log(../.....', 'E:\\xampp\\htdocs...', 1070)
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\Site.php(1070): error_log('[2023-04-11 14:...', 3, '../../../EFS/we...')
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(832): App\Controllers\Site->logout()
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site))
+#4 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\new\sonar\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

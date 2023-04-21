@@ -1,0 +1,8 @@
+CRITICAL - 2023-04-05 05:47:13 --> Undefined array key "billionValue"
+#0 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Libraries\Acl_auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\xampp\\htdocs...', 57)
+#1 E:\xampp\htdocs\new\sonar\webportal-ci4\app\Controllers\Site.php(43): App\Libraries\Acl_auth->__construct()
+#2 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(809): App\Controllers\Site->__construct()
+#3 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 E:\xampp\htdocs\new\sonar\webportal-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\new\sonar\webportal-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
